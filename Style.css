@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Principio de hoja principal*/
+
+.cuerpo{
+    color: #E6DDC4;
+    background-color: rgb(24, 28, 48);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4.5rem;
+    height: 6rem;
+}
+
+.menu{
+    width: 18.75rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.item{
+    background-color: #E6DDC4;
+    color: #181D31;
+    text-decoration: none;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    box-shadow: 0.155rem 0.310rem #678983;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.bot-item:active{
+    transform: translateY(3.96px);
+    box-shadow: 0rem 0.110rem #678983;
+
+}
+.item:active{
+    transform: translateY(3.96px);
+    box-shadow: 0rem 0.110rem #678983;
+}
+
+
+.encabezado{
+    background: url(./assets/imagenes/codigo.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 32.25rem;
+    color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.75rem;
+    padding: 0 6.25rem;
+}
+
+.textH1{
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem grey, 0.375rem 0.375rem black;
+
+}
+
+.textH2{
+    background-color: rgb(24, 28, 48);
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #678983;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.seccion{
+    width: 100%;
+    background-color: rgb(24, 28, 48);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12rem 0rem;
+    
+}
+
+.tarjeta{
+    width: 380px;
+    height: 500px;
+    background-color: #E6DDC4;
+    border: 0.313rem #678983 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen{
+    width: 100%;
+
+}
+
+.enlace{
+    background-color: rgb(24, 28, 48);
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 4rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.625rem;
+    color: #F0F5E4;
+    box-shadow: 0.125rem 0.219rem #678983;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlace:active{
+    transform: translateY(0.119rem);
+    box-shadow: 0rem 0.119rem #678983;
+}
+
+.piedePag{
+    background-color: #678983;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+.pie1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textH3{
+    font-size: 0.875rem;
+    color: rgb(24, 28, 48);
+    text-align: center;
+    text-decoration: solid;
+}
+
+.logo{
+    width: 28%;
+}
+
+.textH4{
+    text-align: center;
+    margin-right: 40px;
+    color: rgb(24, 28, 48);
+    font-size: 1rem;
+}
+
+/*Fin de Hoja principal*/
+
+/*Comienzo de hoja Historia*/
+
+.main{
+    height: 165rem;
+}
+
+.secText{
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #181D31;
+    padding: 10rem 0rem;
+}
+
+.contText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+}
+
+.textH5, .textH6, .textH7, .textH8, .textH9{
+    color:#678983;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400 bold;
+    height: 6rem;
+    width: 35rem;
+}
+
+.textP1{
+    color: #E6DDC4;
+    text-align: left;
+    width: 21.2rem;
+    height: 20rem;
+}
+
+.textP2{
+    width: 22.5rem;
+    text-align: left;
+    color: #E6DDC4;
+}
+
+.textH6{
+    width: 22rem;
+}
+
+.textH7{
+    font-family: 'Montserrat', sans-serif;
+    width: 20rem;
+    height: 10rem;
+}
+
+.textP3{
+    width: 38.4rem;
+    color: #E6DDC4;
+}
+
+.secVid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textH8{
+    width: 60rem;
+    height: 3rem;
+}
+.contVid{
+    background-color: black;
+    padding: 0.313rem 0 0.3rem 0;
+}
+
+video{
+    width: 100%;
+}
+
+.menuRepro{
+    background-color: #1d1d1d;
+    width: 43rem;
+    height: 4.5rem;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.125rem 0.313rem;
+}
+
+.botones{
+    background-color: #E6DDC4;
+    width: 5rem;
+    height: 2.6rem;
+    border-radius: 0.8rem;
+    box-shadow: 2px 3px #678983;
+}
+
+.botones:active{
+    transform: translateY(3px);
+    box-shadow: 0px 0px #678983;
+}
+
+.duracion{
+   height: 2rem;
+   text-align: center;
+}
+
+.barra, .progreso{
+    background-color: #678983;
+    width: 22rem;
+    height: 1rem;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+
+.progreso{
+    background-color: rgb(68, 68, 233);
+    width: 0;
+   margin-top: 0.1px;
+}
+
+.svg{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.rect1, .pol1{
+    animation: anim1 ease-in 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim1{
+    0%{
+        transform: translatey(-10px);
+        opacity: 0;
+    }
+
+    25%{
+        transform: translatey(-10px);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+    75%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+.rect2, .pol2{
+    animation: anim2 ease-in 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim2{
+    0%{
+        transform: translatey(-10px);
+        opacity: 0;
+    }
+
+    25%{
+        transform: translatey(-10px);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+
+    75%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+.contJuegos{
+    height: 70rem;
+    padding: 6.25rem 6.50rem;
+}
+
+.textH9{
+    width: 70rem;
+}
+
+.seccionJuego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contDeposit{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.depositar{
+    background-color: cadetblue;
+    width: 17.288rem;
+    height: 25rem;
+    border: 0.125rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depositar:hover{
+    background-color: #1d1d1d;
+}
+
+.contImagen{
+    display: flex;
+    gap: 0.625rem;
+
+}
+
+.imagenes{
+    width: 17.288rem;
+    height: 25rem;
+    margin-bottom: 5rem;
+}
+
+.botReinicio{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+.ocultar{
+    display: none;
+}
